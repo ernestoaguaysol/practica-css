@@ -256,23 +256,38 @@ span{
     background-color: #f9f9f9;
 }
 
+/* -------------------------------------------------------- */
+
 .footer{
     display: block;
-    height: 100%;
     width: 100%;
-    padding-top: 10%;
-    padding-bottom: 20%; 
+    margin-bottom: 30px;
 }
 
 .line{
-    display: block;
-    width: 100%;
+    background-color: #f9f9f9;
+    padding: 50px 0 40px;
 }
 
+.line div{
+    background-color: #fff;
+    height: 2px;
+    width: 100%
+}
+
+.line div .line-color{
+    height: 2px;
+    background-color: #db4437;
+    width: 200px;
+    margin-left: 70%;
+    box-shadow: 50px 0 #0089fa inset,
+                100px 0 #ff002b inset,
+                150px 0 #ffa900 inset,
+                200px 0 #00a753 inset;
+}
 .social-icons{
-    display: inline-block;
-    width: 100%;
-    margin: 20px 10%;
+    display: block;
+    margin: 10px 10%;
 }
 
 .social-icons a{
@@ -280,6 +295,52 @@ span{
     display: inline-block;
     padding-right: 10px; 
 }
+
+.links{
+    display: block;
+    margin: 10px 10%;
+}
+
+.links a{
+    padding-right: 10px;
+    color: blue;
+    display: inline-block;
+}
+
+.google{
+    text-align: center;
+    padding: 1px 6px;
+    margin-left: 10%; 
+    border: 1px solid #b3afaf;
+    border-radius: 10%;
+}
+
+.fa-google-plus-g{
+    color: #db4437;
+}
+
+.links div{
+    display: inline-block;
+}
+
+.links div a{
+    font-size: 12px;
+}
+
+.language{
+    float: right;
+}
+
+.language i{
+    color: cornflowerblue;
+}
+
+.language select{
+    width: 300px;
+    max-width: 300px;
+}
+
+
 
 
 
