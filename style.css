@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto","Helvetica",arial,sans-serif;
+    color: #333;
+    /* background-color: orange; */
+}
+
+/* Estilos Generales */
+
+a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+div{
+    display: block;
+}
+
+/* ------------------------------------------- */
+/* nabvar */
+nav{
+    background-color: white;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    font-size: 14px;
+    position: fixed;
+    z-index: 1;
+    height: 64px;
+    width: 100%;
+}
+
+
+
+nav > a{
+    padding: 15px 40px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    color:#4a4a4a;
+}
+
+nav ul{
+    float: right;
+    color: #4a4a4a;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+
+
+nav ul li a{
+    height: 64px;
+    padding: 24px 32px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+
+}
+
+nav ul li a:hover{
+    color: #dd5347;
+
+}
+
+.box-color-red{
+    background-color: #dd5347;
+}
+
+.box-color-red a{
+    color: white;
+}
+
+nav ul .box-color-red a:hover{
+    color: #4a4a4a;
+}
+
+
+
+/* ------------------------------------------ */
+/* main */
+
+.scroller{
+    background-color: #dd5347;
+    border-radius: 50%;
+    box-shadow: 0 14px 59px -7px rgba(0,0,0,0.85);
+    cursor: pointer;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    width: 60px;
+    bottom: 25px; 
+    font-size: 14px;
+    z-index: 9;
+    text-align: center;
+}
+
+.scroller .material-icons{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+section div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main section .title-image{
+    color: #fff;
+    padding: 0 9%;
+    position: absolute;
+    top: 18%;
+    width: 33%;
+}
+
+main section div div h1{
+    margin: 40px 0;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 60px;
+}
+
+main section div div a{
+    background: #dd5347;
+    padding: 24px 48px;
+    display: inline-block;
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section-center .initial{
+    margin: 160px 0 45px;
+    text-align: center;
+}
+
+.section-center div .title{
+    font-size: 40px;
+    font-weight: 100;
+    margin: auto;
+    max-width: 400px;
+    padding-bottom: 10px;
+}
+
+.section-center div p{
+    margin: auto;
+    max-width: 400px;
+    font-weight: 100;
+    padding: 30px 0 50px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 48px;
+}
+
+.section-center div{
+    margin: auto;
+    padding: 3% 0 25px;
+    position: relative;
+    text-align: center;
+} 
+
+span{
+    display: block;
+    text-align: center;
+}
+
+.section-doble{
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 100px 0px;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10%; 
+}
+
+.section-doble .box-left{
+    display: flex;
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+.section-doble .box-left h2{
+    padding: 10%;
+}
+
+.section-doble .box-left p{
+    padding: 0 10%;
+}
+
+.section-doble .box-rigth{
+    display: flex;
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.section-doble .box-rigth img{
+    display: flex;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding-top: 24px; 
+}
+
+.section-center .slidershow{
+    box-shadow: 0 0 23px rgba(0,0,0,0.25);
+    margin: 55px auto 175px;
+    max-width: 940px;
+    padding: 8px;
+}
+
+.img-center{
+    width: 66%;
+}
+
+.info{
+    margin-bottom: 35px;
+    color: #dd5347;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.button-red{
+    background-color: #dd5347;
+    padding: 17px 72px;
+    margin: 20px;
+    display: inline;
+    /* box-sizing: border-box; */
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;    
+    font-size: 14px;
+}
+
+.color-grey{
+    background-color: #f9f9f9;
+}
+
+.footer{
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 20%; 
+}
+
+.line{
+    display: block;
+    width: 100%;
+}
+
+.social-icons{
+    display: inline-block;
+    width: 100%;
+    margin: 20px 10%;
+}
+
+.social-icons a{
+    font-size: 24px;
+    display: inline-block;
+    padding-right: 10px; 
+}
+
+
+
